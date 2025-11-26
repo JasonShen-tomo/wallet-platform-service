@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: wallet-project-wlfi
+  profiles:
+    active: ${profiles.active:dev}

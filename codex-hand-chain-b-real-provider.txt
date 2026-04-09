@@ -1,0 +1,1 @@
+Hand chain B real provider validation marker.

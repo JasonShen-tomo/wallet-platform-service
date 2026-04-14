@@ -16,3 +16,15 @@ Expected behavior:
 Acceptance note:
 - demo fix entry for bounty `e3a59cf1-fd37-4a58-98b8-c66cf2cf31ed`
 - required check: `unit:test-simple-fix=pass`
+=======
+# Demo Fix: add returns d instead of a + b
+
+Observed behavior:
+- a demo add flow returns `d` instead of `a + b`
+
+Expected behavior:
+- the add flow should return `a + b`
+
+Acceptance criteria snapshot:
+- update the wrong return path
+- mark `unit:test-simple-fix` as passed in the PR metadata for platform validation

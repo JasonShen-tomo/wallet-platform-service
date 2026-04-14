@@ -1,0 +1,18 @@
+PR Title: fix: correct add return path for simple fix demo
+
+PR Summary:
+- Observed behavior: function `add` returned `d` instead of `a + b`
+- Expected behavior: `add` should return `a + b`
+- Resolution: changed the wrong return path from `return d;` to `return a + b;`
+
+Mock Diff:
+```diff
+- return d;
++ return a + b;
+```
+
+Validation:
+- unit:test-simple-fix: passed
+
+Notes:
+- This is a mock PR metadata file created for platform validation/demo purposes.
